@@ -1,0 +1,41 @@
+{
+ "asof": "20261120",
+ "state": "DOWN_FEAR",
+ "state_label": "하락 · 공포",
+ "alloc": {
+  "CASH": 1.0
+ },
+ "alloc_text": "CASH 100%",
+ "gear": 0.0,
+ "ndx": 25029.0,
+ "sma": 27548.3,
+ "gap_pct": -9.15,
+ "vix_ma": 23.21,
+ "high52": 31224.7,
+ "dd_pct": -19.84,
+ "changed_today": true,
+ "prev_state": "UP_RISKOFF",
+ "prev_alloc_text": "QLD 50% + QQQ 50%",
+ "days_since_change": 0,
+ "generated_at": "2026-11-21T13:37:30Z",
+ "last_change": {
+  "signal_date": "20261120",
+  "fill_date": "20261120",
+  "from": "UP_RISKOFF",
+  "to": "DOWN_FEAR",
+  "from_alloc": "QLD 50% + QQQ 50%",
+  "to_alloc": "CASH 100%",
+  "from_gear": 1.5,
+  "to_gear": 0.0
+ },
+ "params": {
+  "sma_window": 250,
+  "band_up": 0.01,
+  "band_down": -0.05,
+  "vix_window": 10,
+  "vix_up_threshold": 28.0,
+  "vix_down_threshold": 18.0,
+  "dd_window": 252,
+  "dd_threshold": -0.09
+ }
+}
